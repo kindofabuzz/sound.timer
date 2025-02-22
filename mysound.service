@@ -1,0 +1,8 @@
+# /etc/systemd/system/my-script.service
+
+[Unit]
+Description=Run my script
+
+[Service]
+Type=oneshot
+ExecStart=/home/jason/bin/speaker.sh
