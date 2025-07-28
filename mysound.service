@@ -5,4 +5,4 @@ Description=Run my script
 
 [Service]
 Type=oneshot
-ExecStart=/home/jason/bin/speaker.sh
+ExecStart=/home/jason/.local/bin/speaker.sh
